@@ -1,0 +1,110 @@
+.resume-body {
+  background-color: whitesmoke;
+  display: flex;
+  width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: black;
+  border: 2px solid black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.left-section {
+  padding: 20px;
+}
+
+.right-section {
+  flex: 1;
+  padding: 20px;
+  background-color: rgb(173, 191, 230);
+  text-align: center;
+}
+
+.persnol-info {
+  color: black;
+  margin-top: 300px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.persnol-info > div {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  height: 50px;
+  gap: 4px;
+}
+
+#name {
+  position: absolute;
+}
+
+.profile {
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.info-icon {
+  height: 18px;
+  width: 18px;
+}
+
+hr {
+  border-color: rgb(173, 191, 230);
+}
+
+h2 {
+  color: rgb(72, 74, 158);
+  text-decoration: underline;
+  font-style: italic;
+}
+
+h1 {
+  color: rgb(72, 74, 158);
+  text-decoration: underline;
+  margin-bottom: 100px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.skills > div {
+  text-align: center;
+  padding: 6px 2px;
+  border: 1px solid lightblue;
+  border-radius: 3px;
+  background-color: rgb(173, 191, 230);
+  flex: 0 0 20%;
+}
+
+.top-right-circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+
+  right: -50px;
+  top: -50px;
+  background-color: rgb(173, 191, 230);
+}
+
+.top-right-circle2 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+
+  right: -100px;
+  top: 25px;
+  background-color: rgb(173, 191, 230);
+}
