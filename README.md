@@ -1,2 +1,2 @@
 # Resume
-A resume template built using HTML, CSS, Javascript
+A resume template built using HTML, CSS.
